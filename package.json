@@ -1,0 +1,16 @@
+{
+  "name": "sse-election-tools",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "moment": "^2.22.0",
+    "sse-api-client": "git+https://github.com/rit-sse/api-client.git"
+  }
+}
