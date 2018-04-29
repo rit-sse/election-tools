@@ -6,8 +6,8 @@ Primary Officer Election.
 ## How to Run an Election
 
 As of this writing, RIT's survey system is Qualtrics. You can find it located
-at http://rit.edu/survey. Students can use this site to create their own 
-surveys, we will use it to create a vote. Some of the user interface may have 
+at http://rit.edu/survey. Students can use this site to create their own
+surveys, we will use it to create a vote. Some of the user interface may have
 changed since writing, so stay on your toes.
 
 ### Collecting Member Contacts
@@ -21,8 +21,8 @@ for each voting member (remember, this includes advisors). We begin by
 collecting a CSV of people who have voting rights, and later import that into
 Qualtrics.
 
-Find the included SQL script to download the member list from Scoreboard into
-a CSV. Make any adjustments now: be sure to remove anomalies, correct name 
+Find the included Node.js script to download the member list from Scoreboard into
+a CSV. Make any adjustments now: be sure to remove anomalies, correct name
 spellings, and add advisors.
 
 In Qualtrics, click on the 'Contacts' link on the top menu bar. Click 'Create
@@ -56,8 +56,8 @@ This ensures fairness. On each question, click the gear icon, select
 'Randomization', and select 'Randomize the order of all choices'. A shuffle
 icon should appear.
 
-We will now secure the submission process. Click the 'Survey Options' button 
-near the top. Select the option 'By Invitation Only'. Select the option 
+We will now secure the submission process. Click the 'Survey Options' button
+near the top. Select the option 'By Invitation Only'. Select the option
 'Prevent Ballot Box Stuffing'. Click Save.
 
 When you are done, click 'Preview' to check your work.
@@ -73,7 +73,7 @@ it generates. This contains the generated links.
 
 ### Emailing Voting Links
 
-I use a [mail merge](https://en.wikipedia.org/wiki/Mail_merge) to email the links. 
+I use a [mail merge](https://en.wikipedia.org/wiki/Mail_merge) to email the links.
 There is various software to accomplish this task, the one I used was was a
 Google Sheets plug-in named GSM MailMerge. See thier documentation for usage.
 The short story is: compose a draft message in gmail. Use {FirstName} {LastName}
