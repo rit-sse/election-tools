@@ -75,7 +75,7 @@ it generates. This contains the generated links.
 
 I use a [mail merge](https://en.wikipedia.org/wiki/Mail_merge) to email the links.
 There is various software to accomplish this task, the one I used was was a
-Google Sheets plug-in named GSM MailMerge. See thier documentation for usage.
+Google Sheets plug-in named GSM MailMerge. See their documentation for usage.
 The short story is: compose a draft message in gmail. Use {FirstName} {LastName}
 {Link} and {Email} as placeholders. In Sheets, select all of your data except
 for the top (heading) row. Click 'Add-Ons' > 'GSM MailMerge' > 'Email Selected
